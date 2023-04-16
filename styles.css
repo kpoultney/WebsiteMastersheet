@@ -143,3 +143,27 @@ padding-left: 30px;
   display: inline-block;
   padding-left: 30px;
 }
+
+/* Text Styles */
+
+.RedHat, li.RedHat {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.RedHat2, li.RedHat2 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 15px;
+}
+
+.Cookie, li.Cookie {
+font-family: 'Cookie', cursive;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.RedHat, .Cookie, .RedHat2 {
+  margin: 30px;
+  line-height: 0.7;
+}
