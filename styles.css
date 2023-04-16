@@ -1,0 +1,145 @@
+/* Main */
+
+body {
+background-color: #f3f3f3;
+padding-left: 100px;
+}
+
+#container{
+display:flex;
+justify-content:center;
+}
+
+h1 {
+font-weight: bolder;
+font-size: 50px;
+}
+
+h2 {
+font-size: 30px;
+padding-left: 30px;
+margin-bottom: -30px;
+}
+
+#colors {
+  border: black solid 2px;
+  max-width: 750px;
+  margin: 30px;
+}
+
+#fonts {
+  border: black solid 2px;
+  margin: 30px;
+  max-width: 750px;
+}
+
+#tstyles {
+  border: black solid 2px;
+  margin: 30px;
+  max-width: 750px;
+}
+
+.colors {
+padding: 30px;
+}
+
+/* Colors Section with transition */
+
+.card {
+  text-align: center;
+  color: black;
+  width: 150px;
+  height: 250px;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.card * {
+  transition: 0.3s ease all;
+}
+
+.card img {
+  margin: 0;
+  width: 150px;
+  height: 255px;
+  object-fit: cover;
+  display: block;
+}
+
+.card h4 {
+  margin: 0;
+  padding: 12px 12px 48px;
+  line-height: 32px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card .focus-content {
+  display: block;
+  padding: 8px 12px;
+}
+
+.card p {
+  margin: 0;
+  line-height: 1;
+  color: black;
+  font-size: 14px;
+}
+
+.card:hover img, .card:focus-within img {
+  margin-top: -175px;
+}
+
+.card:hover h4, .card:focus-within h4 {
+  padding: 8px 12px 0;
+}
+
+
+div.colors h2 {
+  margin: 0;
+  padding: 12px 12px 48px;
+  line-height: 32px;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.colors {
+display: inline-block;
+}
+
+/* Fonts */
+
+#Cookie {
+font-family: 'Cookie', cursive;
+font-size: 23px;
+line-height: 0.5;
+display: inline-block;
+padding-left: 30px;
+}
+
+#RedHat {
+  font-family: 'Red Hat Display', sans-serif;
+  line-height: 0.8;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+#cursive {
+  font-family: Times;
+  font-style: italic;
+  line-height: 0.8;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+#helvetica {
+  font-family: Helvetica;
+  line-height: 0.8;
+  display: inline-block;
+  padding-left: 30px;
+}
